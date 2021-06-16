@@ -32,7 +32,7 @@ public class ReadExcel {
 		String data = sheet1.getRow(row).getCell(column).getStringCellValue();
 		return data;
 	}
-	
+//To know th row count
 	public int getRowCount(int sheetIndex)
 	{
 		int row = wb.getSheetAt(sheetIndex).getLastRowNum();
